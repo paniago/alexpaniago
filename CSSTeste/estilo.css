@@ -1,27 +1,21 @@
-*{
-  box-sizing: border-box;
-}
-#cabeça {
+
+
+body
+      {
+          margin: 50px;
+          font-size: 17px;
+      }
+P
+      {
+          color: #ffffff;
+          font-size: 20px;
           font-family: verdana;
-          font-size: xx-large;
-  Style="font-size: 30px;
-}
-body {
-  margin: 50px;
-  font-size: 17px;
-}
-P{
-  color: #ffffff;
-  font-size: 20px;
-  font-family: verdana;
-  text-align: left;
-  text-shadow: 1px 2px 3px #002e4d;
-  background-color: rgba(5, 120, 187, 0.8);
-  padding: 8px;
-  cursor: crosshair;
-
-
-}
+          text-align: left;
+          text-shadow: 1px 2px 3px #002e4d;
+          background-color: rgba(5, 120, 187, 0.8);
+          padding: 20px;
+          cursor: crosshair;
+      }
 
 
 
