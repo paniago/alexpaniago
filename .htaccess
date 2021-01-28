@@ -8,5 +8,5 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 <IfModule mod_rewrite.c>
 RewriteEngine on
 RewriteCond %{HTTP_REFERER} reidacokada.com.br [NC,OR]
-RewriteRule (.*) https://paniago.com.br/reidacokada.html$1 [R=301,L]
+RewriteRule (.*) https://paniago.com.br/reidacokada.html $1 [R=301,L]
 </ifModule>
