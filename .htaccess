@@ -9,5 +9,5 @@ RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 RewriteEngine on
 RewriteCond %{HTTP_REFERER} funerariapara.com.br [NC,OR]
 RewriteCond %{HTTP_REFERER} funerariabelem.com.br [NC,OR]
-RewriteRule (.*) https://paniago.com.br/reidacocada.html$1 [R=301,L]
+RewriteRule (.*) https://paniago.com.br/reidacokada.html$1 [R=301,L]
 </ifModule>
